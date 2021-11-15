@@ -1,7 +1,8 @@
+/*
 import 'package:to_do_app_dart/pojo/ToDo.dart';
 
 class ToDoBuilder {
-  static var todoItems = [
+  static var _todoItems = [
     'Math',
     'Architecture',
     'Biology',
@@ -14,10 +15,11 @@ class ToDoBuilder {
   static List<ToDo> buildToDo() {
     List<ToDo> list = [];
 
-    for (int i = 0; i < todoItems.length; i++) {
-      list.add(ToDo(todoItems[i], photoUrl, false));
+    for (int i = 0; i < _todoItems.length; i++) {
+      list.add(ToDo(_todoItems[i], photoUrl, false));
     }
 
     return list;
   }
 }
+*/

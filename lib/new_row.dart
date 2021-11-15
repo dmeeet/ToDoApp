@@ -46,7 +46,6 @@ class _NewRowState extends State<NewRow> {
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
                 colors: [
-                  Colors.blueGrey,
                   Colors.indigo,
                   Colors.lightBlueAccent,
                   Colors.blue,
